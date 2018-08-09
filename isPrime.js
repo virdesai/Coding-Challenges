@@ -1,4 +1,4 @@
-const knownPrimes = [2, 3, 5, 7, 11, 13, 17]; // editable list to improve efficiency of checks loops
+let knownPrimes = [2, 3, 5, 7, 11, 13, 17]; // editable list to improve efficiency of checks loops
 function isPrime(number) {
   if (!Number.isInteger(number)) {
     return false;
